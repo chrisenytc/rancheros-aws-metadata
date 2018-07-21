@@ -32,6 +32,8 @@
 
 ## How to use
 
+Add this [cloud-init](http://cloudinit.readthedocs.io) config on your EC2 user-data or in your rancher configuration file.
+
 ```yaml
 #cloud-config
 rancher:
