@@ -46,6 +46,7 @@ rancher:
         io.rancher.os.scope: system
         io.rancher.os.reloadconfig: 'true'
         io.rancher.os.createonly: 'false'
+        cron.schedule: "*/5 * * * *"
       volumes:
         - /usr/bin/ros:/bin/ros:ro
         - /var/lib/rancher/conf:/var/lib/rancher/conf:rw
